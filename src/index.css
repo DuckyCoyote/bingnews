@@ -1,0 +1,24 @@
+@import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=IBM+Plex+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap");
+
+:root {
+  --font-news: "IBM Plex Mono", serif;
+  --font-body: "Montserrat", sans-serif;
+}
+
+h1 {
+  font-family: var(--font-news);
+  font-size: 50px;
+  text-align: center;
+  color: #fff;
+  text-shadow: 7px 3px 8px rgba(0, 0, 0, 0.9);
+}
+
+h4 {
+  font-family: var(--font-news);
+}
+
+body {
+  background: #f2f3f4;
+  font-family: var(--font-body);
+}

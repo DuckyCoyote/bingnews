@@ -1,0 +1,17 @@
+.notices-section {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 50px;
+}
+
+@media (max-width: 1300px) {
+  .notices-section {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 690px) {
+  .notices-section {
+    grid-template-columns: repeat(1, 1fr);
+  }
+}
