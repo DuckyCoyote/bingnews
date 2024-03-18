@@ -1,3 +1,8 @@
+.button-section {
+  display: flex;
+  justify-content: space-around;
+}
+
 .notices-section {
   display: grid;
   grid-template-columns: repeat(3, 1fr);

@@ -5,7 +5,9 @@ import { DataProvider } from "./context/RequestContext";
 function App() {
   return (
     <>
-      <h1>Bing News</h1>
+      <a href="/" style={{ textDecoration: "none" }}>
+        <h1>Bing News</h1>
+      </a>
       <div className="container">
         <DataProvider>
           <LandingPage />
