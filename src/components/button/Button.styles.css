@@ -4,10 +4,8 @@
   font-size: inherit;
   text-align: center;
   background: white;
-  margin: 20px;
   padding: 0.3rem 3.4rem;
   border: 3px solid black;
-  margin-right: 2.6rem;
   box-shadow: 0 0 0 black;
   transition: all 0.1s;
 }
